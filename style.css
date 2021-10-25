@@ -1,4 +1,14 @@
-
+#body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(153, 204, 255);
+}
+#description{
+    text-align:center;
+}
+a {
+    color: rgb(9,64,116);
+    text-align: center;
+}
 h1 {
     color:black;
     text-align:center;
@@ -9,9 +19,5 @@ h2 {
     font-size:25px;
     text-align:center;
 }
-div p {
-text-align:center;
-}
-a {
-    align-self: center;
-}
+
+

@@ -1,47 +1,113 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Climate change</title>
-        <style>
-            *{
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                background-color: rgb(153, 204, 255);
-            }
-            a {
-                color: rgb(9,64,116);
-            }
-        </style>
         <link href="style.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
-    <body>
-        <h1>Climate Change</h1>
-        <h2>What is climate change?</h2>
-        <div>
-        <p>World temperatures are rising because of human activity, and climate change now threatens 
-            every aspect of human life. <br>Left unchecked, humans and nature will experience catastrophic 
-            warming, with worsening droughts, greater sea level rise and mass extinction of species.
-            <br>We face a huge challenge, but there are potential solutions.</p>
-        </div>
-        <center><a href=https://www.bbc.co.uk/news/science-environment-24021772>BBC-What is climate change?</a></center>
-        <h3>What will be the impacts of climate change?</h3>
-        <p>If temperature rise cannot be kept within 1.5C:</p>
-        <ul>
-            <li>The UK and Europe will be vulnerable to flooding caused by extreme rainfall</li>
-            <li>Countries in the Middle East will experience extreme heatwaves and farmland could turn to desert</li>
-            <li>Island nations in the Pacific region could disappear under rising seas</li>
-            <li>Many African nations are likely to suffer droughts and food shortages</li>
-            <li>Drought conditions are likely in the western US, while other areas will see more intense storms</li>
-            <li>Australia is likely to suffer extremes of heat and drought</li>
-        </ul>
-        <a href=https://climate.nasa.gov/evidence/>NASA climate change</a>
-        <p>The effects of global warming are becoming increasingly evident already such as;<br>
-        
-        <figure>
-         <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/7e/3f/f5/filename-dscn8477-jpg.jpg" alt="Great barrier reef" width="250" height="200" />    
-         <figcaption>The barrier reef being destroyed </figcaption>
-        </figure>
-        <figure><img src="https://th.bing.com/th/id/R.b042c6728f1479accc705e68aac16139?rik=lO7YwLQVhsXY8Q&pid=ImgRaw&r=0" width="250" height="200" align=center/>
-        <figcaption>The ice caps melting</figcaption>
-    </figure>
-        </p>
-    </body>
+    <div id="body">
+        <body>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Climate Change</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            <h1>Climate Change</h1>
+            <h2>What is climate change?</h2>
+            <div id="description">
+            <p>World temperatures are rising because of human activity, and climate change now threatens 
+                every aspect of human life. <br>Left unchecked, humans and nature will experience catastrophic 
+                warming, with worsening droughts, greater sea level rise and mass extinction of species.
+                <br>We face a huge challenge, but there are potential solutions.</p>
+                <a href=https://www.bbc.co.uk/news/science-environment-24021772>BBC-What is climate change?</a>
+            </div>
+            <br>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3 style="text-align:center;">What will be the impacts of climate change?</h3>
+                        <br>
+                    </div>
+                    <div class="col-sm-6">
+                        <p style="text-align:center;">The effects of global warming are becoming increasingly evident already such as;</p>
+                        <br>
+                    </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>If temperature rise cannot be kept within 1.5C:</p>
+                        <ul>
+                            <li>The UK and Europe will be vulnerable to flooding caused by extreme rainfall</li>
+                            <li>Countries in the Middle East will experience extreme heatwaves and farmland could turn to desert</li>
+                            <li>Island nations in the Pacific region could disappear under rising seas</li>
+                            <li>Many African nations are likely to suffer droughts and food shortages</li>
+                            <li>Drought conditions are likely in the western US, while other areas will see more intense storms</li>
+                            <li>Australia is likely to suffer extremes of heat and drought</li>
+                            <li>Increase in category 5 storms</li>
+                            <li>Oceans are the largest reservoir of CO2. The warmer it gets, the less CO2 can diffuse into an ocean
+                                and so more will remain in the atmosphere, which creates a positive feedback loop causing more warming
+                            </li>
+                            <li>Only 3% of all water is freshwater and this percentage will reduce as ice caps melt</li>
+                            <li>Mass extinctions could occur in the future</li>
+                        </ul>
+                    </div>                
+                    <div class="col-sm-3">
+                        <figure>
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/7e/3f/f5/filename-dscn8477-jpg.jpg" alt="Great barrier reef" width="250" height="200" />    
+                            <figcaption>The barrier reef being destroyed </figcaption>
+                        </figure>
+                        <br>
+                        <figure>
+                            <img src="https://climate.nasa.gov/system/content_pages/main_images/203_co2-graph-061219.jpg" width="250" height="200"/>
+                            <figcaption>CO2 levels are higher than previous levels in history</figcaption>
+                        </figure>
+                        <a id="link" href=https://climate.nasa.gov/evidence/>NASA climate change</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <figure>
+                            <img src="https://th.bing.com/th/id/R.b042c6728f1479accc705e68aac16139?rik=lO7YwLQVhsXY8Q&pid=ImgRaw&r=0" width="250" height="200" align=center/>
+                            <figcaption>The ice caps melting</figcaption>
+                        </figure>
+                        <br>
+                        <figure>
+                            <img src="https://www.maritimeherald.com/wp-content/uploads/The-Island-of-Garbage-in-the-Pacific-is-Already-Bigger-Than-3-Countries.jpg" width="250" height="200" align=center/>
+                            <figcaption>The island of garbage in the Pacific is already bigger than 3 countries</figcaption>
+                        </figure>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </div>
 </html>
